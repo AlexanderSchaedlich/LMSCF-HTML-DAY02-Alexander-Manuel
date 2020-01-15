@@ -1,0 +1,11 @@
+header {
+	text-align: center;
+	color: orange;
+}
+h2 {
+	border: 2px solid black;
+	margin-left: 580px;
+	margin-right: 580px;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
