@@ -3,24 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
 	<style type="text/css" media="screen">
+		body {
+			font-family: 'Ibarra Real Nova', serif;
+			display: flex;
+			justify-content: center;
+		}
+		table td {
+			border:  green solid 1px;
+			border-radius: 3px;
+		}
 		img {
 			width: 410px; 
 			height: auto;
 			display: block;
 		}
-		table td {
-			border:  green solid 1px;
-			border-radius: 10px;
-		}
 		#videoTitle {
 			display: flex; 
 			flex-direction: column;
 			text-align: center;
-		}
-		body {
-			display: flex;
-			justify-content: center;
 		}
 	</style>
 </head>
@@ -39,27 +41,12 @@
 					<iframe width="560" height="315" src="http://www.youtube.com/embed/oHs98TEYecM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 					</iframe>
 
-					<h2 id="videoTitle">Feeling Good</h4>
+					<h2 id="videoTitle"><i>Feeling Good</i></h4>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="https://www.gartengnom.net/wp-content/uploads/2009/07/schmetterling-001.jpg" alt="schmetterling" style="width: 410px; height: auto">
-
-					<audio controls>
-						<source src="CryMeARiver.mp3">
-					</audio>
-				</td>
-				<td>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/M2ZaAgNGnn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-					</iframe>
-
-					<h2 id="videoTitle">Cry Me A River</h4>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<img src="https://www.ka-stapelfeld.de/media/zoo/images/Baum_WR_888e74a0c973d6a624f46254188bc763.jpg" alt="baum" style="width: 410px; height: auto">
 
 					<audio controls>
 						<source src="isntThisALovelyDay.mp3">
@@ -69,7 +56,22 @@
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/tPkXPlUVJfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 					</iframe>
 
-					<h2 id="videoTitle">Isn't This A Lovely Day?</h4>
+					<h2 id="videoTitle"><i>Isn't This A Lovely Day?</i></h4>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="https://www.ka-stapelfeld.de/media/zoo/images/Baum_WR_888e74a0c973d6a624f46254188bc763.jpg" alt="baum" style="width: 410px; height: auto">
+
+					<audio controls>
+						<source src="CryMeARiver.mp3">
+					</audio>					
+				</td>
+				<td>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/M2ZaAgNGnn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+
+					<h2 id="videoTitle"><i>Cry Me A River</i></h4>
 				</td>
 			</tr>
 	</table>
