@@ -9,3 +9,8 @@ h2 {
 	font-size: 3em;
 	margin-bottom: 10px;
 }
+
+nav {
+	border: 1px solid grey;
+	background-color: lightgrey
+}
